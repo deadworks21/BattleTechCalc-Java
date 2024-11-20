@@ -80,7 +80,7 @@ public class Main {
                int other = scanner.nextInt();
 
 
-                int attackRoll = Math_Logic.getAttackRoll(movement,enemeyMovement,gunSkill,terrain,range,other);
+                int attackRoll= Math_Logic.getAttackRoll(movement,enemeyMovement,gunSkill,terrain,range,other);
 
 
                 System.out.println("For Target " + target + ", mech " + mech.getName() + " needs to roll: " + attackRoll);

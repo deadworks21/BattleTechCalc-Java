@@ -21,6 +21,10 @@ public class Mech {
         return heat;
     }
 
+    public void addHeat(int additionalHeat){
+        this.heat += additionalHeat;
+    }
+
     public void getInfo(){
         System.out.println("Mech Name: " + name);
         System.out.println("Mech Tonnage: " + tonnage);

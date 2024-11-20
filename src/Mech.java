@@ -1,7 +1,7 @@
 public class Mech {
-    private String name;
-    private Integer tonnage;
-    private Integer heat;
+    private final String name;
+    private final Integer tonnage;
+    public Integer heat;
 
     public Mech(String name,int tonnage,int heat){
         this.name = name;

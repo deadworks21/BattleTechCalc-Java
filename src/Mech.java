@@ -22,9 +22,9 @@ public class Mech {
     }
 
     public void getInfo(){
-        System.out.println("Mech Name" + name);
-        System.out.println("Mech Tonnage" + tonnage);
-        System.out.println("Current Heat" + heat);
+        System.out.println("Mech Name: " + name);
+        System.out.println("Mech Tonnage: " + tonnage);
+        System.out.println("Current Heat: " + heat);
     }
 
 }
